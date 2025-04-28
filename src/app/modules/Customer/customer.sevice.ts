@@ -2,9 +2,9 @@
 
 import { Request } from "express";
 import prisma from "../../utils/prisma";
-import { Customer } from "@prisma/client";
-import AppError from "../../errors/AppError";
 import httpStatus from "http-status";
+import { Customer } from "../../../../generated/prisma";
+import AppError from "../../../errors/AppError";
 
 
 
