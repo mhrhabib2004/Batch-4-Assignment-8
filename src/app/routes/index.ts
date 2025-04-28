@@ -1,8 +1,8 @@
 
 import express from 'express';
 import { customerRoutes } from '../modules/Customer/customer.routes';
-import { bikeRoutes } from '../modules/Bike/bike.routes';
-import { ServiceRoutes } from '../modules/Service/serviceR.routes';
+import { bikeRoutes } from '../modules/bike/bike.routes';
+import { ServiceRoutes } from '../modules/Service/service.routes';
 
 
 const router = express.Router();
