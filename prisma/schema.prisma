@@ -1,7 +1,7 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../generated/prisma"
+  // output   = "../generated/prisma"
 }
 
 datasource db {
@@ -28,7 +28,7 @@ model Bike {
   year       Int
   customerId String
   customer   Customer        @relation(fields: [customerId], references: [customerId])
-  Service    ServiceRecord[]
+  service    ServiceRecord[]
 
   @@map("bike")
 }
