@@ -1,9 +1,10 @@
 
+import httpStatus from "http-status";
 import { Request, Response } from "express";
 import catchAsync from "../../utils/catchAsync";
-import { bikeService } from "./bike.sevice";
 import sendResponse from "../../utils/sendResponse";
-import httpStatus from "http-status";
+import { bikeService } from '../bike/bike.sevice';
+
 
 
 // Create bike
