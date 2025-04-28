@@ -3,14 +3,14 @@
 import { Request } from "express";
 import httpStatus from "http-status";
 import prisma from "../../utils/prisma";
-import AppError from "../../errors/AppError";
-import { Bike } from "@prisma/client";
+import AppError from "../../../errors/AppError";
+import { Bike } from "../../../../generated/prisma";
 
 
 // Create Bike
 const createBikeIntoDB = async (req: Request): Promise<Bike> => {
 
-    const result = await prisma.$transaction(async (transactionClient) => {
+    const result = await prisma.$transaction(async (transactionClient: any) => {
 
         const customer = await prisma.customer.findUnique({
             where: {
