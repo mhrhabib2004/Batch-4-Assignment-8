@@ -1,8 +1,8 @@
 
 import express from 'express';
-import { bikeController } from './bike.controller';
+import { bikeController } from '../bike/bike.controller';
 import validateRequest from '../../utils/validateRequest';
-import { bikeValidation } from './bike.validation';
+import { bikeValidation } from '../bike/bike.validation';
 
 const router = express.Router();
 
