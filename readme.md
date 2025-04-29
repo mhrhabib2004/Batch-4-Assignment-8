@@ -1,7 +1,7 @@
 
 # 🏍 Bike Servicing Management System API SQL Prisma
 
-[![Live Backend](https://img.shields.io/badge/LIVE-Backend-brightgreen)](https://bike-service-prisma-server.vercel.app)
+[![Live Backend](https://img.shields.io/badge/LIVE-Backend-brightgreen)](https://batch-4-assignment-8-one.vercel.app)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue)
@@ -18,7 +18,6 @@ The API is currently deployed at:
 - **Framework**: Express.js
 - **Database**: PostgreSQL
 - **ORM**: Prisma
-- **API Documentation**: OpenAPI/Swagger (coming soon)
 
 ## ✨ Key Features
 - ✅ Complete CRUD operations for customers, bikes, and services
@@ -38,10 +37,10 @@ The API is currently deployed at:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/developerFarukk/Bike-Service-Prisma-Server.git
+   git clone https://github.com/mhrhabib2004/Batch-4-Assignment-8.git
    ```
    ```
-   cd bike-service-api
+   cd Batch-4-Assignment-8
    ```
 2. Install dependencies:
    ```bash
