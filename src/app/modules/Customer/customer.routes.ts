@@ -11,7 +11,7 @@ const router = express.Router();
 
 // Create customer route
 router.post(
-    "/create-customer",
+    "/",
     validateRequest(customerValidation.createCustomerValidation),
     customerController.createCustomer
 );
@@ -31,7 +31,7 @@ router.get(
 
 
 // Update customer route
-router.patch(
+router.put(
     '/:customerId',
     validateRequest(customerValidation.updateCustomerValidation),
     customerController.updateCustomer
