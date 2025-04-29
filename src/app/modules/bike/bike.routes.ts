@@ -9,7 +9,7 @@ const router = express.Router();
 
 // Create bike route
 router.post(
-    "/create-bike",
+    "/",
     validateRequest(bikeValidation.createBikeValidation),
     bikeController.createBike
 );
